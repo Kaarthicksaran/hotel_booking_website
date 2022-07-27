@@ -10,14 +10,49 @@
   <div id="container">
     
     <div class="Header Div">
-      <img src="assests/images/logo.png"alt="logo" height="200px" width="150px">
-      <a href="login.html" target="_blank">login</a>
+      <a href="index.html">
+        <img src="assests/images/logo.png"alt="logo" height="200px" width="150px">
+      </a>
+      <a href="login.html">login</a>
     </div>
 
     <div class="Content Div">
       <div>
         <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="Radisson hotel image"> <br>
-        <a href="payment.html">Book Now</a>
+      </div> 
+      
+      <form action="payment.html" autocomplete="off">
+        <div>
+          <label for="quantity">Adults :</label>
+          <input type="number" name="no of person" id="no of person" min="1" required>
+        </div>
+      
+        <div>
+          <label for="Name">Name :</label>
+          <input type="text" name="Name" id="Name" required>
+        </div>
+
+        <div>
+          <label for="Fdate">From Date :</label>
+          <input type="date" name="Fdate" id="Fdate" required>
+        </div>
+
+       <div>
+          <label for="Tdate">To Date :</label>
+          <input type="date" name="Tdate" id="Tdate" required>
+        </div>
+
+        <div>
+         <label for="total">Total :</label>
+          <input type="text" readonly>
+        </div>
+
+        <div>
+          <input type="submit" value="Book Now">
+        </div>
+      </form>
+
+      <div>
         <h2>Radisson Blu Hotel</h2>
         <p>RATING</p>
         <p>5 Star</p>
@@ -37,6 +72,7 @@
         <div>
           <a href="contact.html" target="_blank">Contact Us</a>
         </div>
+        
         <div>
           <a href="https://facebook.com" target="_blank">
             <img src="assests/images/facebook.png" alt="icon" height="20px" width="22px">
@@ -50,9 +86,11 @@
             <img src="assests/images/twitter.png" alt="icon" height="20px" width="22px">
           </a>
         </div>
+        
         <div>
           © 2020 ROOM SEARCH PVT. LTD.
         </div>
+      
       </div>
   </div>
 </body>
