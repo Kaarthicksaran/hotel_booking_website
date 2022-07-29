@@ -1,11 +1,46 @@
-#container-div{
+html,body{
+  margin: 0;
   height: 100vh;
+  background: #e0e0e0;
 }
+
+header{
+  background:rosybrown;
+}
+footer{
+  background:rosybrown;
+}
+
 .logo{
  height:60px;
  width: 60px;
 }
+
+.image{ 
+  background: rgb(132,136,139); 
+  width: 700px;
+  padding-left: 35%
+
+}
+
 .img-radisson{
   height: 500px;
-  width: 500px ;
+  width: 500px ; 
+  margin-top:2% ;
+  margin-bottom:2% ;
 }
+
+.detail-content{
+  margin:2%
+}
+
+.tariff-content{
+  margin:2%;
+  border: solid 1px black;
+  border-radius: 4px;
+  padding: 1% 2% 1% 2%;
+}
+
+
+
+

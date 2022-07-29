@@ -1,11 +1,45 @@
+html,body{
+  margin: 0;
+}
+
 #container-div{
   height: 100%;
 }
+
+.img-radisson{
+  margin: 2% 4% 0 4%;
+}
+
+.form-content{
+  margin: 0 4% 0 4%;
+}
+
 .logo{
  height:60px;
  width: 60px;
 }
+
 .img-radisson{
   height: 500px;
   width: 500px ;
 }
+
+header,footer{
+background:rosybrown ;
+}
+
+main{
+  background: #e0e0e0;
+}
+
+
+
+
+
+
+
+
+
+
+
+

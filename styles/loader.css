@@ -1,0 +1,18 @@
+
+.loader-container{
+  height: 100vh;
+  align-content: center;
+  display:flex;
+  position: fixed;
+  align-items:center;
+  justify-content:center;
+  padding-left:50% ;
+}
+
+.loader{
+  height: 70px;
+  width: 70px;
+  border: 12px solid #f3f3f3;
+  border-radius: 50%;
+  border-top-color: #444444;
+}

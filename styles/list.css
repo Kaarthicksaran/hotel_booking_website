@@ -1,20 +1,57 @@
+html,body{
+  margin: 0;
+  background:  #e0e0e0;
+}
 #container-div{
   height: 100%;
+}
+.img-raddison img{
+  height: 150px;
+  width: 150px ;
+  padding-right: 100px;
+}
+
+.img-lalit img{
+  height: 150px;
+  width: 150px ;
+}
+
+.img-taj img{
+  height: 150px;
+  width: 150px ;
+
+}
+
+
+main{
+  background:#e0e0e0;
+}
+
+header,footer{
+  background-color:rosybrown ; 
 }
 .logo{
  height:60px;
  width: 60px;
 }
-.img-radisson{
-  height: 150px;
-  width: 150px ;
+.img-raddison{
+  background: rgb(132,136,139);
+  padding: 4%;
+  width: 40%;
+  margin: 4%;
+
 }
 .img-lalit{
-  height: 150px;
-  width: 150px ;
+  background: rgb(132,136,139);
+  padding: 4%;
+  width: 40%;
+  margin: 4%;
+
 }
 .img-taj{
-  height: 150px;
-  width: 150px ;
+  background: rgb(132,136,139);
+  width: 40%;
+  margin: 4%;
+
 }
 
