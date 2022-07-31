@@ -1,14 +1,46 @@
-html,body{
-  margin: 0;
-  background:  #e0e0e0;
+body{
+  margin:0;
+  height: 100vh;
+  width: 100%;
+  background: #e0e0e0 ; 
 }
-#container-div{
-  height: 100%;
+
+header{
+  background-color:rosybrown;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index:8;
 }
+
+.logo{
+  height: 60px;
+  width: 60px;
+}
+
+.login-option{
+  padding: 5px;
+}
+
+.scroll{
+  font-weight: bold;
+  padding : 15px;
+  display:flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.list-img{
+  display:flex;
+  
+}
+
 .img-raddison img{
   height: 150px;
-  width: 150px ;
-  padding-right: 100px;
+  width: 150px ; 
 }
 
 .img-lalit img{
@@ -19,31 +51,16 @@ html,body{
 .img-taj img{
   height: 150px;
   width: 150px ;
-
 }
 
-
-main{
-  background:#e0e0e0;
-}
-
-header,footer{
-  background-color:rosybrown ; 
-}
-.logo{
- height:60px;
- width: 60px;
-}
 .img-raddison{
   background: rgb(132,136,139);
-  padding: 4%;
   width: 40%;
   margin: 4%;
 
 }
 .img-lalit{
   background: rgb(132,136,139);
-  padding: 4%;
   width: 40%;
   margin: 4%;
 
@@ -52,6 +69,36 @@ header,footer{
   background: rgb(132,136,139);
   width: 40%;
   margin: 4%;
+}
 
+.map{
+  display: none;
+}
+
+footer{
+  background: rosybrown;
+  position: fixed;
+  height: 60px;
+  width: 100%;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} 
+
+.contact-us-option{
+  padding:5px;
+}
+
+.smedia-icons{
+  margin-left : 100px ;
+  order:3;
+  padding-right: 5px;
+}
+
+.nothing{
+  font-size: 10px;
+  align-self: flex-end;
+  
 }
 

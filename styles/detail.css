@@ -1,10 +1,30 @@
-html,body{
-  margin: 0;
+body{
+  margin:0;
+  height: 100vh;
+  width: 100%;
+  background: #e0e0e0 ; 
 }
 
-#container-div{
-  height: 100%;
+header{
+  background-color:rosybrown;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index:8;
 }
+
+.logo{
+  height: 60px;
+  width: 60px;
+}
+
+.login-option{
+  padding: 5px;
+}
+
 
 .img-radisson{
   margin: 2% 4% 0 4%;
@@ -14,24 +34,37 @@ html,body{
   margin: 0 4% 0 4%;
 }
 
-.logo{
- height:60px;
- width: 60px;
-}
-
 .img-radisson{
   height: 500px;
   width: 500px ;
 }
 
-header,footer{
-background:rosybrown ;
+footer{
+  background: rosybrown;
+  position: sticky;
+  height: 60px;
+  width: 100%;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} 
+
+.contact-us-option{
+  padding:5px;
 }
 
-main{
-  background: #e0e0e0;
+.smedia-icons{
+  margin-left : 100px ;
+  order:3;
+  padding-right: 5px;
 }
 
+.nothing{
+  font-size: 10px;
+  align-self: flex-end;
+  
+}
 
 
 

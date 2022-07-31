@@ -6,14 +6,22 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>payment</title>
 <link rel="stylesheet" href="styles/payment.css">
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+<style>
+  *{
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    color: black;
+  }
+</style>
 </head>
 <body>
-  <div id="container-div">
+  <div>
     <header>
       <a href="index.html">
         <img src="assests/images/logo.png"alt="logo" height="200px" width="150px" class="logo">
       </a>
-      <a href="login.html">login</a>
+      <a class="login-option" href="login.html">login</a>
     </header>
 
     <main>
@@ -34,20 +42,21 @@
 
       <div  class="tariff-content">
         Traiff Breakdown: Rs.1000 x 2 Adults x 5 Nights <br>
+        <br>
         Total Amount: Rs.10000 
       </div> 
+      
+      <div>
+        <a href="#">Pay Now</a>
+      </div>
     </main>  
 
     <footer>
       <div>
-        <a href="#">Pay Now</a>
+        <a class="contact-us-option" href="contact.html">Contact Us</a>
       </div>
 
-      <div>
-        <a href="contact.html">Contact Us</a>
-      </div>
-
-      <div>
+      <div class="smedia-icons">
         <a href="https://facebook.com" target="_blank">
           <img src="assests/images/facebook.png" alt="icon" height="20px" width="22px">
         </a>
@@ -61,7 +70,7 @@
         </a>
       </div>
 
-      <div>
+      <div class="nothing">
         © 2020 ROOM SEARCH PVT. LTD.
       </div>
     </footer>

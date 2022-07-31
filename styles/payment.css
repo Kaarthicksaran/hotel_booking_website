@@ -1,26 +1,34 @@
-html,body{
-  margin: 0;
+body{
+  margin:0;
   height: 100vh;
-  background: #e0e0e0;
+  width: 100%;
+  background: #e0e0e0 ; 
 }
 
 header{
-  background:rosybrown;
-}
-footer{
-  background:rosybrown;
+  background-color:rosybrown;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index:8;
 }
 
 .logo{
- height:60px;
- width: 60px;
+  height: 60px;
+  width: 60px;
+}
+
+.login-option{
+  padding: 5px;
 }
 
 .image{ 
+  margin-left: 30%;
   background: rgb(132,136,139); 
   width: 700px;
-  padding-left: 35%
-
 }
 
 .img-radisson{
@@ -39,6 +47,33 @@ footer{
   border: solid 1px black;
   border-radius: 4px;
   padding: 1% 2% 1% 2%;
+}
+
+footer{
+  background: rosybrown;
+  position: sticky;
+  height: 60px;
+  width: 100%;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} 
+
+.contact-us-option{
+  padding:5px;
+}
+
+.smedia-icons{
+  margin-left : 100px ;
+  order:3;
+  padding-right: 5px;
+}
+
+.nothing{
+  font-size: 10px;
+  align-self: flex-end;
+  
 }
 
 
