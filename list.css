@@ -1,0 +1,125 @@
+body{
+  margin:0;
+  height: 100vh;
+  width: 100%;
+  background: #e0e0e0 ; 
+}
+
+/* .main{
+  height: 500px;
+} */
+
+header{
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.header-container{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:rosybrown;
+  width: 100%;
+}
+
+.logo{
+  height: 60px;
+  width: 60px;
+  margin-left:1%
+}
+
+.login-option{
+  padding: 5px;
+  margin-right: 2%;
+}
+
+.scroll{
+  font-weight: bold;
+  padding : 15px;
+  display:flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.list-img{
+  display:flex;
+  flex-wrap: wrap;
+  
+}
+
+.img-raddison img{
+  float: left;
+  padding: 0 10px 0 0;
+  height: 150px;
+  width: 150px ; 
+}
+
+.img-lalit img{
+  float: left;
+  padding: 0 10px 0 0;
+  height: 150px;
+  width: 150px ;
+}
+
+.img-taj img{
+  float: left;
+  height: 150px;
+  width: 150px ;
+  padding: 0 10px 0 0;
+  
+}
+
+.img-raddison{
+  background: lightgrey;
+  width: 40%;
+  margin: 4%;
+
+}
+.img-lalit{
+  background: lightgrey;
+  margin: 4%;
+  width: 40%;
+
+}
+.img-taj{
+  background: lightgrey;
+  width: 40%;
+  margin: 4%;
+}
+
+.map{
+  display: none;
+}
+
+footer{
+  position: sticky;
+  bottom:0;
+}
+
+.footer-container{
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rosybrown;
+  width: 100%;
+  height: 60px; 
+}
+
+.contact-us-option{
+  margin-left:1%
+}
+
+.smedia-icons{
+  margin-right :2% ;
+  order: 3;
+  padding-right: 5px;
+}
+
+.nothing{
+  font-size: 10px;  
+}
+
+
