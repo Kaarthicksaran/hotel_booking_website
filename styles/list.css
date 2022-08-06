@@ -2,17 +2,20 @@ body{
   margin:0;
   height: 100vh;
   width: 100%;
-  background: #e0e0e0 ; 
+  background: #e0e0e0  ; 
+  
 }
 
-/* .main{
-  height: 500px;
-} */
+*{
+  font-family: 'Ubuntu', sans-serif;
+  text-decoration: none;
+  color: black;
+} 
 
 header{
   position: sticky;
   top: 0;
-  z-index: 1;
+  z-index: 0;
 }
 
 .header-container{
@@ -40,6 +43,7 @@ header{
   display:flex;
   justify-content: center;
   gap: 30px;
+  text-decoration: none;
 }
 
 .list-img{
@@ -74,22 +78,37 @@ header{
   background: lightgrey;
   width: 40%;
   margin: 4%;
+  transition: all 0.4 linear;
 
 }
+
+.img-raddison:hover{
+  background: rosybrown;
+}
+
+
 .img-lalit{
   background: lightgrey;
   margin: 4%;
   width: 40%;
+  transition: all 0.4 linear;
 
 }
+
+.img-lalit:hover{
+  background: rosybrown;
+}
+
+
 .img-taj{
   background: lightgrey;
   width: 40%;
   margin: 4%;
+  transition: all 0.4 linear;
 }
 
-.map{
-  display: none;
+.img-taj:hover{
+  background: rosybrown;
 }
 
 footer{

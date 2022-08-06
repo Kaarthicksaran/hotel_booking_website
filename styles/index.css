@@ -5,6 +5,12 @@ body{
   background: #e0e0e0 ; 
 }
 
+*{
+  font-family: 'Ubuntu', sans-serif;
+  text-decoration: none;
+  color: black;
+}
+
 main{
   background-size: cover;
   height: 100vh;
@@ -18,21 +24,17 @@ header{
 
 .header-container{
   display:flex;
-  justify-content: space-between;
+  justify-content:space-between;
   align-items: center;
   background-color:rosybrown;
   width: 100%;
 }
 
+
 .logo{
   height: 60px;
   width: 60px;
   margin-left:1%
-}
-
-.login-option{
-  padding: 5px;
-  margin-right: 2%;
 }
 
 .search-bar-content{ 
@@ -79,7 +81,6 @@ header{
 
 .image-goa{
   position: relative;
-  height: 100%;
 }
 
 .image-charminar{
@@ -92,12 +93,10 @@ header{
 
 }
 
-.image-delhi-content{
+.image-delhi p{
   position: absolute;
   top:33%;
   left:33%;
-  height: 100%;
-  background:(0, 0, 0, 1) ;
   
 }
 
@@ -150,7 +149,12 @@ footer{
 }
 
 .contact-us-option{
-  margin-left:1%
+  margin-left:1%;
+
+}
+
+.modal-fade{
+  z-index:999;
 }
 
 .smedia-icons{

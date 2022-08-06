@@ -15,6 +15,9 @@
     color: black;
   }
 </style>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </head>
 <body>
   <div>
@@ -22,9 +25,36 @@
       <div class="header-container">
         <img class="logo" src="assests/images/logo.png"alt=
         "logo" height="200px" width="150px">
+          
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModal">
+         Login
+        </button>
+      </div> 
+      
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
 
-        <a class="login-option" href="login.html">Login</a>
-      </div>  
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button type="button" class="close"  data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+
+            <div class="modal-body">
+              ...
+            </div>
+
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
 
 
@@ -47,29 +77,58 @@
         <div>Check-out Date: 08/06/2020</div> <br>  
         <div>Traiff Breakdown: Rs.1000 x 2 Adults x 5 Nights</div> <br>
         <div>Total Amount: Rs.10000 </div> <br>
-        <a href="#">Pay Now</a>
+        <a href="#" class="pay-button">
+          <button type="button" class="btn btn-success" disabled>Pay Now</button>
+        </a>
       </div> 
     </main>  
 
     <footer>
       <div class="footer-container">
         <div class="contact-us-option"> 
-          <a href="contact.html">Contact Us</a>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModal">
+          Contact Us
+        </button> 
         </div>
 
-        <div class="smedia-icons">
-          <a> 
-            <img src="assests/images/facebook.png" alt="icon" height="20px" width="22px">
-          </a>
+        <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button type="button" class="close"  data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
 
-          <a> 
-            <img src="assests/images/instagram.png" alt="icon" height="20px" width="22px">
-          </a>
+            <div class="modal-body">
+              ...
+            </div>
 
-          <a> 
-            <img src="assests/images/twitter.png" alt="icon" height="20px" width="22px">
-          </a>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
         </div>
+      </div>
+
+      <div class="smedia-icons">
+        <a href="https://www.facebook.com"> 
+          <img src="assests/images/facebook.png" alt="icon" height="20px" width="22px">
+        </a>
+
+        <a href="https://www.instagram.com"> 
+          <img src="assests/images/instagram.png" alt="icon" height="20px" width="22px">
+        </a>
+
+        <a href="https://twitter.com"> 
+          <img src="assests/images/twitter.png" alt="icon" height="20px" width="22px">
+        </a>
+      </div>
 
         <div class="nothing">
           © 2020 ROOM SEARCH PVT. LTD.
